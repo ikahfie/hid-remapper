@@ -20,11 +20,6 @@ jobs:
           sudo apt install -y --no-install-recommends gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib srecord
       - name: Build
         run: |
-          mkdir build
-          cd build
-          cmake ..
-          make
-          cd ..
           mkdir build-waveshare_rp2040_zero
           cd build-waveshare_rp2040_zero
           PICO_BOARD=waveshare_rp2040_zero cmake ..
