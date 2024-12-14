@@ -1734,7 +1734,7 @@ const examples = [
     {
         'description': 'keyboard adapter for Switch with 15 degree nudges and tilt',
         'config': {
-            "version": 9,
+            "version": 16,
             "unmapped_passthrough_layers": [],
             "partial_scroll_timeout": 1000000,
             "tap_hold_threshold": 200000,
@@ -1742,18 +1742,8 @@ const examples = [
             "interval_override": 0,
             "our_descriptor_number": 2,
             "ignore_auth_dev_inputs": false,
+            "input_labels": 0,
             "mappings": [
-                {
-                    "target_usage": "0x00010039",
-                    "source_usage": "0xfff30001",
-                    "scaling": 1000,
-                    "layers": [
-                        0
-                    ],
-                    "sticky": false,
-                    "tap": false,
-                    "hold": false
-                },
                 {
                     "target_usage": "0x00010032",
                     "source_usage": "0xfff30007",
@@ -1763,7 +1753,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00010035",
@@ -1774,7 +1766,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00010030",
@@ -1785,7 +1779,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00010031",
@@ -1796,7 +1792,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090003",
@@ -1807,7 +1805,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090002",
@@ -1818,7 +1818,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090006",
@@ -1829,7 +1831,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090008",
@@ -1840,7 +1844,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090005",
@@ -1851,7 +1857,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090007",
@@ -1862,7 +1870,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090004",
@@ -1873,7 +1883,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000a",
@@ -1884,7 +1896,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000a",
@@ -1895,7 +1909,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090009",
@@ -1906,7 +1922,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000d",
@@ -1917,7 +1935,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000b",
@@ -1928,7 +1948,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000c",
@@ -1939,7 +1961,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090001",
@@ -1950,7 +1974,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090004",
@@ -1961,7 +1987,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000e",
@@ -1972,7 +2000,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090003",
@@ -1983,7 +2013,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090002",
@@ -1994,7 +2026,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090006",
@@ -2005,7 +2039,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090008",
@@ -2016,7 +2052,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090005",
@@ -2027,7 +2065,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090007",
@@ -2038,7 +2078,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000c",
@@ -2049,7 +2091,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 }
             ],
             "macros": [
@@ -2087,7 +2131,7 @@ const examples = [
                 []
             ],
             "expressions": [
-                "8000",
+                "",
                 "",
                 "0x00070004 input_state_binary 1 mul 0x00070007 input_state_binary 2 mul bitwise_or 0x0007001a input_state_binary 4 mul bitwise_or 0x00070016 input_state_binary 8 mul bitwise_or 1000 store -1000 1000 recall 1 eq 7000 mul add 1000 recall 2 eq 3000 mul add 1000 recall 4 eq 1000 mul add 1000 recall 8 eq 5000 mul add 1000 recall 5 eq 8000 mul add 1000 recall 6 eq 2000 mul add 1000 recall 10 eq 4000 mul add 1000 recall 9 eq 6000 mul add 1000 recall 7 eq 1000 mul add 1000 recall 11 eq 5000 mul add 1000 recall 13 eq 7000 mul add 1000 recall 14 eq 3000 mul add 45000 mul dup dup dup dup 135000 gt 2000 mul -1000 add 4000 store 315000 add 360000 mod 135000 gt 2000 mul -1000 add 5000 store -45000 eq not dup 7000 store 0 0x00070014 input_state_binary 15000 mul 4000 recall mul add 0x00070008 input_state_binary 15000 mul 5000 recall mul add 0x0007001d input_state_binary -15000 mul 5000 recall mul add 0x00070006 input_state_binary -15000 mul 4000 recall mul add mul add 3000 store 0x000700e1 input_state_binary -500 mul 1000 add 6000 store",
                 "3000 recall sin 127000 mul 6000 recall mul 7000 recall mul 128000 add",
@@ -2095,13 +2139,16 @@ const examples = [
                 "0x00070018 input_state_binary 0x00070059 input_state_binary bitwise_or 1 mul 0x00070012 input_state_binary 0x0007005b input_state_binary bitwise_or 2 mul bitwise_or 0x00070013 input_state_binary 0x00070058 input_state_binary bitwise_or 4 mul bitwise_or 0x0007000c input_state_binary 0x0007005a input_state_binary bitwise_or 8 mul bitwise_or 10000 store -1000 10000 recall 1 eq 7000 mul add 10000 recall 2 eq 3000 mul add 10000 recall 4 eq 1000 mul add 10000 recall 8 eq 5000 mul add 10000 recall 5 eq 8000 mul add 10000 recall 6 eq 2000 mul add 10000 recall 10 eq 4000 mul add 10000 recall 9 eq 6000 mul add 10000 recall 7 eq 1000 mul add 10000 recall 11 eq 5000 mul add 10000 recall 13 eq 7000 mul add 10000 recall 14 eq 3000 mul add 45000 mul dup -45000 eq not 8000 store 9000 store",
                 "9000 recall sin 127000 mul 8000 recall mul 128000 add",
                 "9000 recall cos -127000 mul 8000 recall mul 128000 add"
-            ]
+            ],
+            "macro_entry_duration": 1,
+            "gpio_output_mode": 0,
+            "quirks": []
         }
     },
     {
         'description': 'Stadia controller adapter for PS4',
         'config': {
-            "version": 11,
+            "version": 16,
             "unmapped_passthrough_layers": [],
             "partial_scroll_timeout": 1000000,
             "tap_hold_threshold": 200000,
@@ -2109,6 +2156,7 @@ const examples = [
             "interval_override": 0,
             "our_descriptor_number": 3,
             "ignore_auth_dev_inputs": true,
+            "input_labels": 0,
             "mappings": [
                 {
                     "target_usage": "0x00010030",
@@ -2167,9 +2215,47 @@ const examples = [
                     "target_port": 0
                 },
                 {
-                    "target_usage": "0x00010039",
-                    "source_usage": "0x00010039",
-                    "source_name": "D-pad",
+                    "target_usage": "0xfff90001",
+                    "source_usage": "0xfff90001",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90002",
+                    "source_usage": "0xfff90002",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90003",
+                    "source_usage": "0xfff90003",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90004",
+                    "source_usage": "0xfff90004",
                     "scaling": 1000,
                     "layers": [
                         0
@@ -2464,13 +2550,14 @@ const examples = [
                 ""
             ],
             "macro_entry_duration": 1,
-            "gpio_output_mode": 0
+            "gpio_output_mode": 0,
+            "quirks": []
         }
     },
     {
         'description': 'keyboard adapter for PS4: arrows=D-pad, WASD=left stick, numpad=right stick',
         'config': {
-            "version": 14,
+            "version": 16,
             "unmapped_passthrough_layers": [
                 0,
                 1,
@@ -2485,10 +2572,50 @@ const examples = [
             "ignore_auth_dev_inputs": true,
             "macro_entry_duration": 1,
             "gpio_output_mode": 0,
+            "input_labels": 0,
             "mappings": [
                 {
-                    "target_usage": "0x00010039",
-                    "source_usage": "0xfff30001",
+                    "target_usage": "0xfff90001",
+                    "source_usage": "0x00070050",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90002",
+                    "source_usage": "0x0007004f",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90003",
+                    "source_usage": "0x00070052",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90004",
+                    "source_usage": "0x00070051",
                     "scaling": 1000,
                     "layers": [
                         0
@@ -2795,7 +2922,7 @@ const examples = [
                 []
             ],
             "expressions": [
-                "0x00070050 input_state_binary /* left arrow */ eol 0x0007004f input_state_binary /* right arrow */ eol 0x00070052 input_state_binary /* up arrow */ eol 0x00070051 input_state_binary /* down arrow */ eol dpad /* 0=up, 1=up+right, 2=right, ..., 8=neutral */",
+                "",
                 "0x00070004 input_state_binary /* A */ eol 0x00070007 input_state_binary /* D */ eol 0x0007001a input_state_binary /* W */ eol 0x00070016 input_state_binary /* S */ eol dpad /* 0=up, 1=up+right, 2=right, ..., 8=neutral */ eol 45000 mul /* angle in degrees */ eol dup eol 360000 eq not 3000 store /* is any of the keys pressed? */ eol 4000 store /* 0..360 angle */",
                 "4000 recall /* 0..360 angle */ eol sin eol 127000 mul eol 3000 recall /* is any of the keys pressed? */ eol mul eol 128000 add eol /* used as left stick X */",
                 "4000 recall /* 0..360 angle */ eol cos eol -127000 eol mul eol 3000 recall /* is any of the keys pressed? */ eol mul eol 128000 add eol /* used as left stick Y */",
@@ -2810,7 +2937,7 @@ const examples = [
     {
         'description': 'mouse to analog stick',
         'config': {
-            "version": 9,
+            "version": 16,
             "unmapped_passthrough_layers": [],
             "partial_scroll_timeout": 1000000,
             "tap_hold_threshold": 200000,
@@ -2818,6 +2945,7 @@ const examples = [
             "interval_override": 0,
             "our_descriptor_number": 2,
             "ignore_auth_dev_inputs": false,
+            "input_labels": 0,
             "mappings": [
                 {
                     "target_usage": "0x00010030",
@@ -2828,7 +2956,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00010031",
@@ -2839,40 +2969,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
-                },
-                {
-                    "target_usage": "0x00010032",
-                    "source_usage": "0xfff30003",
-                    "scaling": 1000,
-                    "layers": [
-                        0
-                    ],
-                    "sticky": false,
-                    "tap": false,
-                    "hold": false
-                },
-                {
-                    "target_usage": "0x00010035",
-                    "source_usage": "0xfff30003",
-                    "scaling": 1000,
-                    "layers": [
-                        0
-                    ],
-                    "sticky": false,
-                    "tap": false,
-                    "hold": false
-                },
-                {
-                    "target_usage": "0x00010039",
-                    "source_usage": "0xfff30004",
-                    "scaling": 1000,
-                    "layers": [
-                        0
-                    ],
-                    "sticky": false,
-                    "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 }
             ],
             "macros": [
@@ -2910,15 +3009,18 @@ const examples = [
                 []
             ],
             "expressions": [
-                "0x00010030 input_state 1000 recall add -127000 127000 clamp 980 mul dup 1000 store 128000 add",
-                "0x00010031 input_state 2000 recall add -127000 127000 clamp 980 mul dup 2000 store 128000 add",
-                "128000",
-                "8000",
+                "0x00010030 input_state eol 1000 recall eol add eol -127000 127000 clamp eol 980 mul eol dup eol 1000 store eol 128000 add",
+                "0x00010031 input_state eol 2000 recall eol add eol -127000 127000 clamp eol 980 mul eol dup eol 2000 store eol 128000 add",
+                "",
+                "",
                 "",
                 "",
                 "",
                 ""
-            ]
+            ],
+            "macro_entry_duration": 1,
+            "gpio_output_mode": 0,
+            "quirks": []
         }
     },
     {
@@ -3005,7 +3107,7 @@ const examples = [
     {
         'description': 'Xbox controller (Bluetooth) adapter for Switch',
         'config': {
-            "version": 9,
+            "version": 16,
             "unmapped_passthrough_layers": [],
             "partial_scroll_timeout": 1000000,
             "tap_hold_threshold": 200000,
@@ -3013,17 +3115,59 @@ const examples = [
             "interval_override": 0,
             "our_descriptor_number": 2,
             "ignore_auth_dev_inputs": false,
+            "input_labels": 0,
             "mappings": [
                 {
-                    "target_usage": "0x00010039",
-                    "source_usage": "0xfff30001",
+                    "target_usage": "0xfff90001",
+                    "source_usage": "0xfff50001",
                     "scaling": 1000,
                     "layers": [
                         0
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90002",
+                    "source_usage": "0xfff50002",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90003",
+                    "source_usage": "0xfff50003",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90004",
+                    "source_usage": "0xfff50004",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00010030",
@@ -3034,7 +3178,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00010031",
@@ -3045,7 +3191,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00010032",
@@ -3056,7 +3204,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00010035",
@@ -3067,7 +3217,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090002",
@@ -3079,7 +3231,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090003",
@@ -3091,7 +3245,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090001",
@@ -3103,7 +3259,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090004",
@@ -3115,7 +3273,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090005",
@@ -3127,7 +3287,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090006",
@@ -3139,7 +3301,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090007",
@@ -3150,7 +3314,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090008",
@@ -3161,7 +3327,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000b",
@@ -3173,7 +3341,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000c",
@@ -3185,7 +3355,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090009",
@@ -3197,7 +3369,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000a",
@@ -3209,7 +3383,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000d",
@@ -3221,7 +3397,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 }
             ],
             "macros": [
@@ -3259,21 +3437,24 @@ const examples = [
                 []
             ],
             "expressions": [
-                "0x00010039 input_state -1000 add 9000 mod",
-                "0x00010030 input_state 125 mul 125 mul 250 mul",
-                "0x00010031 input_state 125 mul 125 mul 250 mul",
-                "0x00010032 input_state 125 mul 125 mul 250 mul",
-                "0x00010035 input_state 125 mul 125 mul 250 mul",
-                "0x000200c5 input_state 1023000 eq",
-                "0x000200c4 input_state 1023000 eq",
+                "/*\nXbox controllers in Bluetooth mode report dpad directions as 1..8\n(N, NE, E, SE, S, SW, W, NW) with 0 as neutral.\n*/ eol eol 0x00010039 input_state 6000 eq eol 0x00010039 input_state 7000 eq bitwise_or eol 0x00010039 input_state 8000 eq bitwise_or eol 1000 store /* left */ eol eol 0x00010039 input_state 2000 eq eol 0x00010039 input_state 3000 eq bitwise_or eol 0x00010039 input_state 4000 eq bitwise_or eol 2000 store /* right */ eol eol 0x00010039 input_state 8000 eq eol 0x00010039 input_state 1000 eq bitwise_or eol 0x00010039 input_state 2000 eq bitwise_or eol 3000 store /* up */ eol eol 0x00010039 input_state 4000 eq eol 0x00010039 input_state 5000 eq bitwise_or eol 0x00010039 input_state 6000 eq bitwise_or eol 4000 store /* down */",
+                "0x00010030 input_state eol 256000 div eol round eol 0 255000 clamp",
+                "0x00010031 input_state eol 256000 div eol round eol 0 255000 clamp",
+                "0x00010032 input_state eol 256000 div eol round eol 0 255000 clamp",
+                "0x00010035 input_state eol 256000 div eol round eol 0 255000 clamp",
+                "/* trigger range is 0..1023 */ eol 0x000200c5 input_state eol 255000 gt",
+                "/* trigger range is 0..1023 */ eol 0x000200c4 input_state eol 255000 gt",
                 ""
-            ]
+            ],
+            "macro_entry_duration": 1,
+            "gpio_output_mode": 0,
+            "quirks": []
         }
     },
     {
         'description': 'Xbox controller (USB) adapter for Switch',
         'config': {
-            "version": 9,
+            "version": 16,
             "unmapped_passthrough_layers": [],
             "partial_scroll_timeout": 1000000,
             "tap_hold_threshold": 200000,
@@ -3281,17 +3462,59 @@ const examples = [
             "interval_override": 0,
             "our_descriptor_number": 2,
             "ignore_auth_dev_inputs": false,
+            "input_labels": 0,
             "mappings": [
                 {
-                    "target_usage": "0x00010039",
-                    "source_usage": "0xfff30001",
+                    "target_usage": "0xfff90001",
+                    "source_usage": "0x0009000b",
                     "scaling": 1000,
                     "layers": [
                         0
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90002",
+                    "source_usage": "0x0009000c",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90003",
+                    "source_usage": "0x00090009",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90004",
+                    "source_usage": "0x0009000a",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00010030",
@@ -3302,7 +3525,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00010031",
@@ -3313,7 +3538,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00010032",
@@ -3324,7 +3551,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00010035",
@@ -3335,7 +3564,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090002",
@@ -3347,7 +3578,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090003",
@@ -3359,7 +3592,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090001",
@@ -3371,7 +3606,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090004",
@@ -3383,7 +3620,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090005",
@@ -3395,7 +3634,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090006",
@@ -3407,7 +3648,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090007",
@@ -3418,7 +3661,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090008",
@@ -3429,7 +3674,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000b",
@@ -3441,7 +3688,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000c",
@@ -3453,7 +3702,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x00090009",
@@ -3465,7 +3716,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000a",
@@ -3477,7 +3730,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 },
                 {
                     "target_usage": "0x0009000d",
@@ -3489,7 +3744,9 @@ const examples = [
                     ],
                     "sticky": false,
                     "tap": false,
-                    "hold": false
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
                 }
             ],
             "macros": [
@@ -3527,15 +3784,18 @@ const examples = [
                 []
             ],
             "expressions": [
-                "0x0009000b input_state_binary 1 mul 0x0009000c input_state_binary 2 mul bitwise_or 0x00090009 input_state_binary 4 mul bitwise_or 0x0009000a input_state_binary 8 mul bitwise_or 1000 store -1000 1000 recall 1 eq 7000 mul add 1000 recall 2 eq 3000 mul add 1000 recall 4 eq 1000 mul add 1000 recall 8 eq 5000 mul add 1000 recall 5 eq 8000 mul add 1000 recall 6 eq 2000 mul add 1000 recall 10 eq 4000 mul add 1000 recall 9 eq 6000 mul add 1000 recall 7 eq 1000 mul add 1000 recall 11 eq 5000 mul add 1000 recall 13 eq 7000 mul add 1000 recall 14 eq 3000 mul add dup -1000 eq 9000 mul add",
-                "0x00010030 input_state 32768000 add 125 mul 125 mul 250 mul",
-                "0x00010031 input_state -32767000 add 125 mul 125 mul -250 mul",
-                "0x00010032 input_state 32768000 add 125 mul 125 mul 250 mul",
-                "0x00010035 input_state -32767000 add 125 mul 125 mul -250 mul",
-                "0x000200c5 input_state 1023000 eq",
-                "0x000200c4 input_state 1023000 eq",
+                "",
+                "0x00010030 input_state eol 256000 div eol round eol 128000 add eol 0 255000 clamp",
+                "0x00010031 input_state eol -256000 div eol round eol 128000 add eol 0 255000 clamp",
+                "0x00010032 input_state eol 256000 div eol round eol 128000 add eol 0 255000 clamp",
+                "0x00010035 input_state eol -256000 div eol round eol 128000 add eol 0 255000 clamp",
+                "/* trigger range is 0..1023 */ eol 0x000200c5 input_state eol 255000 gt",
+                "/* trigger range is 0..1023 */ eol 0x000200c4 input_state eol 255000 gt",
                 ""
-            ]
+            ],
+            "macro_entry_duration": 1,
+            "gpio_output_mode": 0,
+            "quirks": []
         }
     },
     {
@@ -3860,7 +4120,7 @@ const examples = [
     {
         'description': 'custom board v8: analog stick',
         'config': {
-            "version": 14,
+            "version": 15,
             "unmapped_passthrough_layers": [
                 0,
                 1,
@@ -3942,8 +4202,8 @@ const examples = [
                 []
             ],
             "expressions": [
-                "0xfff80000 input_state /* 12-bit ADC value */ eol -2048000 add /* center around zero */ eol dup abs 50000 gt mul /* simple per-axis deadzone */ eol 100 mul /* scale */ eol 128000 add /* 128 is neutral on output */ eol 0 255000 clamp /* output range is 0-255 */",
-                "0xfff80001 input_state /* 12-bit ADC value */ eol -2048000 add /* center around zero */ eol dup abs 50000 gt mul /* simple per-axis deadzone */ eol -100 mul /* scale and invert */ eol 128000 add /* 128 is neutral on output */ eol 0 255000 clamp /* output range is 0-255 */",
+                "0xfff80000 input_state /* 12-bit ADC value */ eol 2048000 /* X neutral point */ eol sub eol dup sign swap abs eol 50000 /* per-axis deadzone */ eol sub relu eol mul /* restore sign */ eol 100 mul /* scale */ eol 128000 add /* 128 is neutral on output */ eol 0 255000 clamp /* output range is 0-255 */",
+                "0xfff80001 input_state /* 12-bit ADC value */ eol 2048000 /* Y neutral point */ eol sub eol dup sign swap abs eol 50000 /* per-axis deadzone */ eol sub relu eol mul /* restore sign */ eol -100 mul /* scale and invert */ eol 128000 add /* 128 is neutral on output */ eol 0 255000 clamp /* output range is 0-255 */",
                 "",
                 "",
                 "",
@@ -3957,7 +4217,7 @@ const examples = [
     {
         'description': 'custom board v8: analog stick as mouse',
         'config': {
-            "version": 12,
+            "version": 15,
             "unmapped_passthrough_layers": [
                 0,
                 1,
@@ -4039,8 +4299,96 @@ const examples = [
                 []
             ],
             "expressions": [
-                "0xfff80000 input_state eol -2048000 add eol dup eol abs 100000 gt mul eol 2 mul",
-                "0xfff80001 input_state eol -2048000 add eol dup eol abs 100000 gt mul eol -2 mul",
+                "0xfff80000 input_state /* 12-bit ADC value */ eol 2048000 /* X neutral point */ eol sub eol dup sign swap abs eol 100000 /* per-axis deadzone */ eol sub relu eol mul /* restore sign */ eol 2 mul /* scale */",
+                "0xfff80001 input_state /* 12-bit ADC value */ eol 2048000 /* Y neutral point */ eol sub eol dup sign swap abs eol 100000 /* per-axis deadzone */ eol sub relu eol mul /* restore sign */ eol -2 mul /* scale */",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "quirks": []
+        }
+    },
+    {
+        'description': 'custom board v8: analog stick with auto-calibration and proper deadzone',
+        'config': {
+            "version": 15,
+            "unmapped_passthrough_layers": [],
+            "partial_scroll_timeout": 1000000,
+            "tap_hold_threshold": 200000,
+            "gpio_debounce_time_ms": 5,
+            "interval_override": 0,
+            "our_descriptor_number": 5,
+            "ignore_auth_dev_inputs": false,
+            "macro_entry_duration": 1,
+            "gpio_output_mode": 0,
+            "mappings": [
+                {
+                    "target_usage": "0x00010030",
+                    "source_usage": "0xfff50015",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0x00010031",
+                    "source_usage": "0xfff50016",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                }
+            ],
+            "macros": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+            ],
+            "expressions": [
+                "/*\nregister 1 = is neutral point calibration done?\nregister 2 = X neutral point\nregister 3 = Y neutral point\nregister 10 = outer deadzone\nregister 11 = inner deadzone radius\nregister 12 = positive X axis scaling\nregister 13 = positive Y axis scaling\nregister 14 = negative X axis scaling\nregister 15 = negative Y axis scaling\nregister 21 = output stick X\nregister 22 = output stick Y\nregister 23 = processed X value, before applying deadzone\nregister 24 = processed Y value, before applying deadzone\nregister 25 = current stick angle\n*/ eol eol 16000 /* inner deadzone radius */ eol 11000 store eol 16000 /* outer deadzone */ eol 10000 store eol eol /* initial scaling values */ eol 12000 recall dup not 500 mul add 12000 store eol 13000 recall dup not 500 mul add 13000 store eol 14000 recall dup not 500 mul add 14000 store eol 15000 recall dup not 500 mul add 15000 store eol eol /* calibrate neutral point during the first second */ eol 1000 recall eol time 1000000 gt eol bitwise_or eol 1000 store eol eol /* X neutral point */ eol 2000 recall 900 mul eol 0xfff80000 input_state 100 mul eol add eol 1000 recall not mul eol 2000 recall 1000 recall mul eol add eol 2000 store eol eol /* Y neutral point */ eol 3000 recall 900 mul eol 0xfff80001 input_state 100 mul eol add eol 1000 recall not mul eol 3000 recall 1000 recall mul eol add eol 3000 store eol eol /* fetch and process raw values */ eol 0xfff80000 input_state /* 12-bit ADC value for X */ eol 2000 recall -1000 mul add /* X neutral point */ eol 32000 store eol 32000 recall 0 gt 12000 recall mul /* positive side scaling */ eol 32000 recall 0 gt not 14000 recall mul /* negative side scaling */ eol add eol 32000 recall eol mul /* scale */ eol 23000 store /* processed X value */ eol eol 0xfff80001 input_state /* 12-bit ADC value for Y */ eol 3000 recall -1000 mul add /* Y neutral point */ eol -1000 mul /* invert Y axis */ eol 32000 store eol 32000 recall 0 gt 13000 recall mul /* positive side scaling */ eol 32000 recall 0 gt not 15000 recall mul /* negative side scaling */ eol add eol 32000 recall eol mul /* scale */ eol 24000 store /* processed Y value */ eol eol 23000 recall eol 24000 recall eol atan2 eol 25000 store /* angle */ eol eol /* X */ eol 23000 recall /* processed X value */ eol dup sign swap abs eol 25000 recall sin 11000 recall mul /* X component of deadzone */ eol abs sub relu /* apply deadzone */ eol mul /* restore sign */ eol 128000 add /* 128 is neutral on output */ eol 32000 store eol eol /* check if we need to decrease scaling factors */ eol /* negative side */ eol 10000 recall -1000 mul 32000 recall gt eol -1 mul eol 1000 recall mul /* skip if we're still calibrating neutral point */ eol 14000 recall eol add eol 0 99000 clamp 14000 store eol eol /* positive side */ eol 32000 recall 10000 recall 255000 add gt eol -1 mul eol 1000 recall mul /* skip if we're still calibrating neutral point */ eol 12000 recall eol add eol 0 99000 clamp 12000 store eol eol 32000 recall eol 0 255000 clamp /* output range is 0-255 */ eol eol 21000 store eol eol /* Y */ eol eol 24000 recall /* processed Y value */ eol dup sign swap abs eol 25000 recall cos 11000 recall mul /* Y component of deadzone */ eol abs sub relu /* apply deadzone */ eol mul /* restore sign */ eol 128000 add /* 128 is neutral on output */ eol 32000 store eol eol /* check if we need to decrease scaling factors */ eol /* negative side */ eol 10000 recall -1000 mul 32000 recall gt eol -1 mul eol 1000 recall mul /* skip if we're still calibrating neutral point */ eol 15000 recall eol add eol 0 99000 clamp 15000 store eol eol /* positive side */ eol 32000 recall 10000 recall 255000 add gt eol -1 mul eol 1000 recall mul /* skip if we're still calibrating neutral point */ eol 13000 recall eol add eol 0 99000 clamp 13000 store eol eol 32000 recall eol 0 255000 clamp /* output range is 0-255 */ eol eol 22000 store",
+                "",
                 "",
                 "",
                 "",
@@ -5504,7 +5852,7 @@ const examples = [
     {
         'description': 'DualSense to XAC adapter',
         'config': {
-            "version": 14,
+            "version": 16,
             "unmapped_passthrough_layers": [
                 4,
                 5,
@@ -5519,6 +5867,7 @@ const examples = [
             "ignore_auth_dev_inputs": false,
             "macro_entry_duration": 1,
             "gpio_output_mode": 0,
+            "input_labels": 0,
             "mappings": [
                 {
                     "target_usage": "0x00010030",
@@ -5573,8 +5922,47 @@ const examples = [
                     "target_port": 0
                 },
                 {
-                    "target_usage": "0x00010039",
-                    "source_usage": "0x00010039",
+                    "target_usage": "0xfff90001",
+                    "source_usage": "0xfff90001",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90002",
+                    "source_usage": "0xfff90002",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90003",
+                    "source_usage": "0xfff90003",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90004",
+                    "source_usage": "0xfff90004",
                     "scaling": 1000,
                     "layers": [
                         0
@@ -5969,7 +6357,7 @@ const examples = [
     {
         'description': 'Stadia controller to XAC adapter',
         'config': {
-            "version": 14,
+            "version": 16,
             "unmapped_passthrough_layers": [
                 4,
                 5,
@@ -5984,6 +6372,7 @@ const examples = [
             "ignore_auth_dev_inputs": false,
             "macro_entry_duration": 1,
             "gpio_output_mode": 0,
+            "input_labels": 0,
             "mappings": [
                 {
                     "target_usage": "0x00010030",
@@ -6038,8 +6427,47 @@ const examples = [
                     "target_port": 0
                 },
                 {
-                    "target_usage": "0x00010039",
-                    "source_usage": "0x00010039",
+                    "target_usage": "0xfff90001",
+                    "source_usage": "0xfff90001",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90002",
+                    "source_usage": "0xfff90002",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90003",
+                    "source_usage": "0xfff90003",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90004",
+                    "source_usage": "0xfff90004",
                     "scaling": 1000,
                     "layers": [
                         0
@@ -6257,7 +6685,7 @@ const examples = [
     {
         'description': 'keyboard to XAC adapter: arrows=D-pad, WASD=left stick, numpad=right stick',
         'config': {
-            "version": 14,
+            "version": 16,
             "unmapped_passthrough_layers": [],
             "partial_scroll_timeout": 1000000,
             "tap_hold_threshold": 200000,
@@ -6267,10 +6695,50 @@ const examples = [
             "ignore_auth_dev_inputs": false,
             "macro_entry_duration": 1,
             "gpio_output_mode": 0,
+            "input_labels": 0,
             "mappings": [
                 {
-                    "target_usage": "0x00010039",
-                    "source_usage": "0xfff30001",
+                    "target_usage": "0xfff90001",
+                    "source_usage": "0x00070050",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90002",
+                    "source_usage": "0x0007004f",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90003",
+                    "source_usage": "0x00070052",
+                    "scaling": 1000,
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "target_usage": "0xfff90004",
+                    "source_usage": "0x00070051",
                     "scaling": 1000,
                     "layers": [
                         0
@@ -6525,7 +6993,7 @@ const examples = [
                 []
             ],
             "expressions": [
-                "0x00070050 input_state_binary /* left arrow */ eol 0x0007004f input_state_binary /* right arrow */ eol 0x00070052 input_state_binary /* up arrow */ eol 0x00070051 input_state_binary /* down arrow */ eol dpad /* 0=up, 1=up+right, 2=right, ..., 8=neutral */",
+                "",
                 "0x00070004 input_state_binary /* A */ eol 0x00070007 input_state_binary /* D */ eol 0x0007001a input_state_binary /* W */ eol 0x00070016 input_state_binary /* S */ eol dpad /* 0=up, 1=up+right, 2=right, ..., 8=neutral */ eol 45000 mul /* angle in degrees */ eol dup eol 360000 eq not 3000 store /* is any of the keys pressed? */ eol 4000 store /* 0..360 angle */",
                 "4000 recall /* 0..360 angle */ eol sin eol 127000 mul eol 3000 recall /* is any of the keys pressed? */ eol mul eol 128000 add eol /* used as left stick X */",
                 "4000 recall /* 0..360 angle */ eol cos eol -127000 eol mul eol 3000 recall /* is any of the keys pressed? */ eol mul eol 128000 add eol /* used as left stick Y */",
@@ -7537,6 +8005,605 @@ const examples = [
                 ""
             ],
             "quirks": []
+        }
+    },
+    {
+        'description': 'Flatbox rev5',
+        'config': {
+            "version": 16,
+            "unmapped_passthrough_layers": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "partial_scroll_timeout": 1000000,
+            "tap_hold_threshold": 200000,
+            "gpio_debounce_time_ms": 5,
+            "interval_override": 0,
+            "our_descriptor_number": 2,
+            "ignore_auth_dev_inputs": false,
+            "macro_entry_duration": 1,
+            "gpio_output_mode": 0,
+            "input_labels": 0,
+            "mappings": [
+                {
+                    "source_usage": "0xfff4000d",
+                    "target_usage": "0xfff90001",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff4000b",
+                    "target_usage": "0xfff90002",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff4000a",
+                    "target_usage": "0xfff90003",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff4000c",
+                    "target_usage": "0xfff90004",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff40009",
+                    "target_usage": "0x00090002",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff40007",
+                    "target_usage": "0x00090003",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff40008",
+                    "target_usage": "0x00090001",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff40006",
+                    "target_usage": "0x00090004",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff40004",
+                    "target_usage": "0x00090006",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff40005",
+                    "target_usage": "0x00090008",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff40002",
+                    "target_usage": "0x00090005",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff40003",
+                    "target_usage": "0x00090007",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff4000e",
+                    "target_usage": "0x00090009",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff4000f",
+                    "target_usage": "0x0009000a",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff4001a",
+                    "target_usage": "0x0009000d",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff4001b",
+                    "target_usage": "0x0009000b",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff4001c",
+                    "target_usage": "0x0009000c",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                }
+            ],
+            "macros": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+            ],
+            "expressions": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "quirks": []
+        }
+    },
+    {
+        'description': '3dRudder (PS4 version): analog stick',
+        'config': {
+            "version": 15,
+            "unmapped_passthrough_layers": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "partial_scroll_timeout": 1000000,
+            "tap_hold_threshold": 200000,
+            "gpio_debounce_time_ms": 5,
+            "interval_override": 0,
+            "our_descriptor_number": 2,
+            "ignore_auth_dev_inputs": false,
+            "macro_entry_duration": 1,
+            "gpio_output_mode": 0,
+            "mappings": [
+                {
+                    "source_usage": "0xfff50001",
+                    "target_usage": "0x00010030",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff50002",
+                    "target_usage": "0x00010031",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 1000,
+                    "source_port": 0,
+                    "target_port": 0
+                }
+            ],
+            "macros": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+            ],
+            "expressions": [
+                "/*\nIf message type is not 245, ignore report and use previous value.\nIf status is not 6 or 7, set stick to neutral.\n*/ eol eol 0xff000002 input_state 6000 eq eol 0xff000002 input_state 7000 eq bitwise_or eol 3000 store eol eol /* X */ eol 0xff000001 input_state 245000 eq eol eol 0xff000003 input_state_fp32 /* yaw */ eol dup 0xffff0003 monitor /* preview decoded value */ eol 3000 recall mul /* is status 6 or 7? */ eol 12000 /* horizontal scaling */ eol mul eol dup sign swap abs eol 16000 /* horizontal deadzone */ eol sub relu eol mul /* restore sign */ eol 128000 add eol 0 255000 clamp eol eol 1000 recall /* previous value */ eol eol ifte eol 1000 store eol eol /* Y */ eol 0xff000001 input_state 245000 eq eol eol 0xff000004 input_state_fp32 /* pitch */ eol dup 0xffff0004 monitor /* preview decoded value */ eol 3000 recall mul /* is status 6 or 7? */ eol -20000 /* vertical scaling */ eol mul eol dup sign swap abs eol 16000 /* vertical deadzone */ eol sub relu eol mul /* restore sign */ eol 128000 add eol 0 255000 clamp eol eol 2000 recall /* previous value */ eol eol ifte eol 2000 store",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "quirks": [
+                {
+                    "vendor_id": "0x2dfa",
+                    "product_id": "0x0002",
+                    "interface": 0,
+                    "report_id": 1,
+                    "usage": "0xff000001",
+                    "size": 8,
+                    "bitpos": 8,
+                    "relative": false,
+                    "signed": false
+                },
+                {
+                    "vendor_id": "0x2dfa",
+                    "product_id": "0x0002",
+                    "interface": 0,
+                    "report_id": 1,
+                    "usage": "0xff000002",
+                    "size": 8,
+                    "bitpos": 24,
+                    "relative": false,
+                    "signed": false
+                },
+                {
+                    "vendor_id": "0x2dfa",
+                    "product_id": "0x0002",
+                    "interface": 0,
+                    "report_id": 1,
+                    "usage": "0xff000003",
+                    "size": 32,
+                    "bitpos": 40,
+                    "relative": false,
+                    "signed": false
+                },
+                {
+                    "vendor_id": "0x2dfa",
+                    "product_id": "0x0002",
+                    "interface": 0,
+                    "report_id": 1,
+                    "usage": "0xff000004",
+                    "size": 32,
+                    "bitpos": 72,
+                    "relative": false,
+                    "signed": false
+                },
+                {
+                    "vendor_id": "0x2dfa",
+                    "product_id": "0x0002",
+                    "interface": 0,
+                    "report_id": 1,
+                    "usage": "0xff000005",
+                    "size": 32,
+                    "bitpos": 104,
+                    "relative": false,
+                    "signed": false
+                }
+            ]
+        }
+    },
+    {
+        'description': '3dRudder (PS4 version): mouse',
+        'config': {
+            "version": 15,
+            "unmapped_passthrough_layers": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "partial_scroll_timeout": 1000000,
+            "tap_hold_threshold": 200000,
+            "gpio_debounce_time_ms": 5,
+            "interval_override": 0,
+            "our_descriptor_number": 0,
+            "ignore_auth_dev_inputs": false,
+            "macro_entry_duration": 1,
+            "gpio_output_mode": 0,
+            "mappings": [
+                {
+                    "source_usage": "0xfff30001",
+                    "target_usage": "0x00010030",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 100,
+                    "source_port": 0,
+                    "target_port": 0
+                },
+                {
+                    "source_usage": "0xfff30002",
+                    "target_usage": "0x00010031",
+                    "layers": [
+                        0
+                    ],
+                    "sticky": false,
+                    "tap": false,
+                    "hold": false,
+                    "scaling": 100,
+                    "source_port": 0,
+                    "target_port": 0
+                }
+            ],
+            "macros": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+            ],
+            "expressions": [
+                "/* X */ eol 0xff000003 input_state_fp32 /* yaw */ eol dup 0xffff0003 monitor /* preview decoded value */ eol dup sign swap eol abs 4000 sub relu /* deadzone */ eol mul /* restore sign */ eol /* ignore unless message type is 245 and status is 6 or 7 */ eol 0xff000001 input_state 245000 eq mul eol 0xff000002 input_state 6000 eq eol 0xff000002 input_state 7000 eq bitwise_or mul",
+                "/* Y */ eol 0xff000004 input_state_fp32 /* pitch */ eol dup 0xffff0004 monitor /* preview decoded value */ eol dup sign swap eol abs 4000 sub relu /* deadzone */ eol mul /* restore sign */ eol /* ignore unless message type is 245 and status is 6 or 7 */ eol 0xff000001 input_state 245000 eq mul eol 0xff000002 input_state 6000 eq eol 0xff000002 input_state 7000 eq bitwise_or mul",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "quirks": [
+                {
+                    "vendor_id": "0x2dfa",
+                    "product_id": "0x0002",
+                    "interface": 0,
+                    "report_id": 1,
+                    "usage": "0xff000001",
+                    "size": 8,
+                    "bitpos": 8,
+                    "relative": false,
+                    "signed": false
+                },
+                {
+                    "vendor_id": "0x2dfa",
+                    "product_id": "0x0002",
+                    "interface": 0,
+                    "report_id": 1,
+                    "usage": "0xff000002",
+                    "size": 8,
+                    "bitpos": 24,
+                    "relative": false,
+                    "signed": false
+                },
+                {
+                    "vendor_id": "0x2dfa",
+                    "product_id": "0x0002",
+                    "interface": 0,
+                    "report_id": 1,
+                    "usage": "0xff000003",
+                    "size": 32,
+                    "bitpos": 40,
+                    "relative": false,
+                    "signed": false
+                },
+                {
+                    "vendor_id": "0x2dfa",
+                    "product_id": "0x0002",
+                    "interface": 0,
+                    "report_id": 1,
+                    "usage": "0xff000004",
+                    "size": 32,
+                    "bitpos": 72,
+                    "relative": false,
+                    "signed": false
+                },
+                {
+                    "vendor_id": "0x2dfa",
+                    "product_id": "0x0002",
+                    "interface": 0,
+                    "report_id": 1,
+                    "usage": "0xff000005",
+                    "size": 32,
+                    "bitpos": 104,
+                    "relative": false,
+                    "signed": false
+                }
+            ]
         }
     }
 ];
