@@ -1,0 +1,39 @@
+name: build-rp2040-zero-test
+on:
+  push:
+    paths:
+      - 'firmware/**'
+  workflow_call:
+defaults:
+  run:
+    shell: bash --noprofile --norc -x -e -o pipefail {0}
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Install compiler, libraries and tools
+        run: |
+          sudo apt update
+          sudo apt install -y --no-install-recommends gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib srecord
+      - name: Build
+        run: |
+          mkdir build
+          cd build
+          cmake ..
+          make
+          cd ..
+          mkdir build-waveshare_rp2040_zero
+          cd build-waveshare_rp2040_zero
+          PICO_BOARD=waveshare_rp2040_zero cmake ..
+          make remapper
+          cd ..
+          mkdir artifacts
+          mv build/*.uf2 artifacts
+          mv build-waveshare_rp2040_pizero/remapper.uf2 artifacts/remapper_waveshare_rp2040_zero.uf2
+        working-directory: ./firmware
+      - uses: actions/upload-artifact@v4
+        with:
+          path: firmware/artifacts/*
