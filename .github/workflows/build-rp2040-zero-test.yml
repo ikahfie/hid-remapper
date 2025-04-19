@@ -32,7 +32,7 @@ jobs:
           cd ..
           mkdir artifacts
           mv build/*.uf2 artifacts
-          mv build-waveshare_rp2040_pizero/remapper.uf2 artifacts/remapper_waveshare_rp2040_zero.uf2
+          mv build-waveshare_rp2040_zero/remapper.uf2 artifacts/remapper_waveshare_rp2040_zero.uf2
         working-directory: ./firmware
       - uses: actions/upload-artifact@v4
         with:
