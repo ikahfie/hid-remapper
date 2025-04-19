@@ -1,9 +1,5 @@
 name: build-rp2040-zero-test
-on:
-  push:
-    paths:
-      - 'firmware/**'
-  workflow_call:
+on: workflow_dispatch 
 defaults:
   run:
     shell: bash --noprofile --norc -x -e -o pipefail {0}
